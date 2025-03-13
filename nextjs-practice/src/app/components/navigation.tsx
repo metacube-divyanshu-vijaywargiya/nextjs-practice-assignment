@@ -12,6 +12,7 @@ export const Navigation = ()=> {
         <Link href="/nested-route/blog" className={pathName == '/nested-route/blog' ? 'font-bold text-white mr-4' : 'mr-4 text-blue-500'}>Nested Blog page</Link>
         <Link href="/users-client" className={pathName == '/users-client' ? 'font-bold text-white mr-4' : 'mr-4 text-blue-500'}>Users Client</Link>
         <Link href="/users-server" className={pathName == '/users-server' ? 'font-bold text-white mr-4' : 'mr-4 text-blue-500'}>Users Server</Link>
+        <Link href="/mock-users" className={pathName == '/mock-users' ? 'font-bold text-white mr-4' : 'mr-4 text-blue-500'}>Mock Users</Link>
     </nav>
   )
 }
